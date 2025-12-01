@@ -1,0 +1,10 @@
+.nav-links-container {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.auth-links-container {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
