@@ -1,0 +1,132 @@
+body {
+  background: #192546;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 900px;
+  height: 550px;
+  background: #fff;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Left Section */
+.left {
+  width: 50%;
+  padding: 40px;
+}
+.heading-container {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.left h2 {
+  margin-bottom: 10px;
+}
+
+.left p {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.social-btn {
+  width: 100%;
+  padding: 10px;
+  background: #f3f3f3;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.google-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-right: 8px;
+  color: inherit;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.fb-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-right: 8px;
+  color: inherit;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: gray;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.forgot {
+  text-align: right;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #192546;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-btn:hover {
+  background: #0f1a33;
+}
+/* Right Section */
+.right {
+  width: 50%;
+  background: url("https://img.freepik.com/free-vector/fishing-night-near-forest-with-boat-rod-flat-vector-illustration_98292-3107.jpg?semt=ais_hybrid&w=740&q=80")
+    no-repeat center/cover;
+  position: relative;
+  color: white;
+  padding: 40px;
+}
+
+.right-text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  width: 75%;
+}
+
+.right-text h2 {
+  margin-bottom: 10px;
+}
+
+.right-text p {
+  font-size: 14px;
+  color: #dcdcdc;
+}
+.signup-link {
+  color: white;
+  text-decoration: none;
+}
