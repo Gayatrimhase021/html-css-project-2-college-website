@@ -15,6 +15,8 @@ Project Overview
      .Signup page 
 
      ![College Homepage](./images/college-heading-img.jpeg)
+     <img src="./images/college heading-img.jpeg" alt="College Homepage" width="500">
+
 
      .To give visitors an overview of the collage 
       .Provide quick navigation to imporatant sections 
