@@ -2,12 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f1f1ef;
+    background-color: #6c88d6 ;
 }
 
 .navbar-main-container {
     width: 100%;
-    background: black;
+    background:    #192546;
     padding: 12px 25px;
     display: flex;
     align-items: center;
@@ -76,6 +76,27 @@ nav {
         flex-direction: column;
         gap: 10px;
     }
+}
+
+.header {
+    background: #2460ad;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header p {
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+.box {
+    width: 85%;
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
 }
 
 
