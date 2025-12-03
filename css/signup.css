@@ -65,5 +65,51 @@ nav {
 .menu-item:hover {
     color: orange;
 }
+/* MAIN WRAPPER */
+.container {
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* LEFT BOX (INCREASED SIZE) */
+.left-card {
+    background: #faf8d7;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.left-card .avatar {
+    width: 250px;
+    /* bigger image */
+    height: 220px;
+    margin-bottom: 10px;
+}
+
+.left-card h2 {
+    color: #000;
+    margin-bottom: 15px;
+    font-size: 30px;
+    /* bigger text */
+}
+
+.left-card p {
+    font-size: 18px;
+    color: #000;
+}
 
 
